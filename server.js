@@ -5,7 +5,7 @@ const port = 3000;
 const fs = require("fs")
 
 app.get ('/', (req, res) => {
-    res.send("KHALIL malandro.")
+    res.send('<h1>KHALIL malandro.</h1>');
 })
 
 
